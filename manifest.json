@@ -1,4 +1,19 @@
 {
+    "id": "myPWA",
+    "start_url": "/",
     "lang": "en",
-    "name": "Webboard"
+    "name": "PWA testing",
+    "icons": [
+        {
+          "src": "/images/download (1).png",
+          "sizes": "148x148",
+          "type": "image/png"
+        }],
+    "display": "standalone",
+    "display_override": [
+    "window-controls-overlay"
+    ],
+    "scope": "/"   
+   
+
 }
