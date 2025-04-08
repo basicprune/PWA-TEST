@@ -1,6 +1,6 @@
 {
     "id": "myPWA",
-    "short_name": "pwa",
+    "short_name": "pwa 0.0.2",
     "start_url": "https://basicprune.github.io/PWA-TEST/",
     "lang": "en",
     "name": "PWA testing",
