@@ -6,10 +6,20 @@
         <link rel="manifest" href="/PWA-TEST/manifest.json">
     </head>
     <body>
+        <div id="backdiv">
+
         <title>PWA testing</title>
         <p>Hello World!</p>
         <p>version 0.0.1</p>
         <img src="/PWA-TEST/images/icon.png" alt="icon test">
+        <button id="bluebutton" onclick="turnBackgroundBlue()">Press Me!</button>
+        <script>
+            function turnBackgroundBlue(){
+                document.getElementById("backdiv").style['background'] = 'blue';
+            }
+        </script>
+    </div>
+
     </body>
 </html>   
 
